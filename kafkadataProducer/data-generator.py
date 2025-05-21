@@ -4,7 +4,7 @@ import datetime
 import json
 
 # Configuration
-LOG_FILE_PATH = './kafkadataProducer/2021-03-27.1.txt'  # Path to your log file
+LOG_FILE_PATH = '../test-data/2021-03-27.1.txt'  # Path to your log file
 KAFKA_BROKER = 'localhost:9092'  # Update with your broker address
 KAFKA_TOPIC = 'test-logs'  # Update with your Kafka topic
 

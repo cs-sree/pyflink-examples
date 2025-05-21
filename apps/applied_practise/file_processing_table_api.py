@@ -66,7 +66,7 @@ def main():
 
 
     # Write valid data to a temp file
-    temp_file = '/Users/harshavardhan.reddy/Documents/ETL/pyflink-intro-elastic/csv_output/valid_data.json'
+    temp_file = '/Users/harshavardhan.reddy/Documents/ETL/pyflink-intro-elastic/test-data/valid_data.json'
     with open(temp_file, 'w') as temp_f:
         for entry in updated_data:
             temp_f.write(json.dumps(entry)+'\n')

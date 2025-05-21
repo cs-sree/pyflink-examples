@@ -93,7 +93,7 @@ def main(output_path=None):
     env.set_parallelism(1)
 
     # Reading from JSON file
-    file_path = '/Users/harshavardhan.reddy/Documents/ETL/pyflink-intro-elastic/apps/applied_practise/2021-03-27.json'
+    file_path = '/Users/harshavardhan.reddy/Documents/ETL/pyflink-intro-elastic/test-data/2021-03-27.json'
 
     with open(file_path, 'r') as f:
         json_data = [json.loads(line) for line in f if line.strip()]
